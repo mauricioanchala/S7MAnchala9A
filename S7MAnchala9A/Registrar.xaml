@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="S7MAnchala9A.Registrar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nombre: "></Label>
+            <Entry Placeholder="Introduce tu nombre: " x:Name="Nombre"></Entry>
+            <Label Text="Usuario: "></Label>
+            <Entry Placeholder="Introduce tu usuario: " x:Name="Usuario"></Entry>
+            <Label Text="Contraseña: "></Label>
+            <Entry Placeholder="Elige una contraseña" IsPassword="True" x:Name="Contrasenia"></Entry>
+            <Button x:Name="BtnRegistar" Text="Registrar" BackgroundColor="DarkCyan" TextColor="White" Clicked="BtnRegistar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
